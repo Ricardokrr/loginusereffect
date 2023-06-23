@@ -7,10 +7,50 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #741188;
+    background: linear-gradient(135deg, #741188, #9d33b2);
     padding: 0 2rem;
-  }
-  
-  .main-header h1 {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+   }
+   
+   .main-header h1 {
     color: white;
-  }
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+   }
+   
+   .main-header .navigation {
+    display: flex;
+    align-items: center;
+   }
+   
+   .main-header .navigation a {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease;
+   }
+   
+   .main-header .navigation a:hover {
+    border-color: white;
+   }
+   
+   .main-header .navigation .active {
+    border-color: white;
+   }
+   
+   .main-header .logout-button {
+    font-size: 1.2rem;
+    color: white;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+   }
+   
+   .main-header .logout-button:hover {
+    opacity: 0.8;
+   }

@@ -1,16 +1,20 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-  font-family: sans-serif;
-  background: #fff;
+  font-family: Arial,sans-serif;
+  background:linear-gradient(135deg, #e8b6f2, #d49adf);
 }
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 main {
   margin-top: 6rem;
+  padding: 2rem;
 }
